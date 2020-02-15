@@ -30,6 +30,11 @@ namespace Snake
 
         public void RunOnce(ConsoleKey consoleKey)
         {
+            if(consoleKey!= ConsoleKey.NoName)
+            {
+                _logging.Log($"Ran {count} next frame {_frameTime.TotalMilliseconds}, key: {consoleKey.ToString()}");
+            }
+
             var dtNow = DateTime.Now;
 
             _frameTime = dtNow - _previousDateTime;
@@ -42,7 +47,7 @@ namespace Snake
             _previousDateTime = dtNow;
             _frameTime = TimeSpan.FromMilliseconds(_frameTime.TotalMilliseconds - FrameTime);
             count++;
-            _logging.Log($"Ran {count} next frame {_frameTime.TotalMilliseconds}");
+            _logging.Log($"Ran {count} next frame {_frameTime.TotalMilliseconds}, key: {consoleKey.ToString()}");
         }
     }
 }

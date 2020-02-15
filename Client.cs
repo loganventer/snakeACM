@@ -16,12 +16,12 @@ namespace Snake
 
             do
             {
-                keyInfo = new ConsoleKeyInfo();
-                if (Console.KeyAvailable)
+                while (!Console.KeyAvailable)
                 {
-                    keyInfo = Console.ReadKey();
+                    _orchestrator.RunOnce(ConsoleKey.NoName);
                 }
 
+                keyInfo = Console.ReadKey();
                 _orchestrator.RunOnce(keyInfo.Key);
             } while (keyInfo.Key != ConsoleKey.Q);
         }
