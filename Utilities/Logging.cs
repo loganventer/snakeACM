@@ -11,9 +11,9 @@ namespace Snake.Utilities
         {
             if (_debugEnabled)
             {
-                var mth = new StackTrace().GetFrame(1).GetMethod();
-                var cls = mth.ReflectedType.Name;
-                Console.WriteLine(logString);
+                var method = new StackTrace().GetFrame(1).GetMethod();
+                var typeName = method.ReflectedType.Name;
+                Console.WriteLine($"[{typeName}] {logString}");
             }
         }
 

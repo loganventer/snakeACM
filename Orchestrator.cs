@@ -36,7 +36,7 @@ namespace Snake
             {
                 _snakeManager.RunOnce(consoleKey);
                 
-                _logging.Log($"[{this.GetType().Name}]Ran {count} next frame {_frameTime.TotalMilliseconds}, key: {consoleKey.ToString()}");
+                _logging.Log($"Ran {count} next frame {_frameTime.TotalMilliseconds}, key: {consoleKey.ToString()}");
             }
 
             var dtNow = DateTime.Now;
