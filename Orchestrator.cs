@@ -35,7 +35,6 @@ namespace Snake
             if(consoleKey!= ConsoleKey.NoName)
             {
                 _snakeManager.RunOnce(consoleKey);
-                
                 _logging.Log($"Ran {count} next frame {_frameTime.TotalMilliseconds}, key: {consoleKey.ToString()}");
             }
 
