@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Snake/1.0.0": {
+        "dependencies": {
+          "Autofac": "5.1.1"
+        },
+        "runtime": {
+          "Snake.dll": {}
+        }
+      },
+      "Autofac/5.1.1": {
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {
+            "assemblyVersion": "5.1.1.0",
+            "fileVersion": "5.1.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Snake/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/5.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M7iD7QSXfTUuq4ZjFPOwJFS5uc2Ghc5XhGtzO+pTlfYX+MKxsqvtej5EvJm6I/mrvgoChfZv+IwXx/0VcCr0wA==",
+      "path": "autofac/5.1.1",
+      "hashPath": "autofac.5.1.1.nupkg.sha512"
+    }
+  }
+}
