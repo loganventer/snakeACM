@@ -29,5 +29,10 @@ namespace Snake.Engines
             if (direction != Direction.Down)
                 direction = Direction.Up;
         }
+
+        public Direction GetDirection()
+        {
+            return direction;
+        }
     }
 }

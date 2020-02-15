@@ -1,3 +1,5 @@
+using Snake.Engines.Enumerations;
+
 namespace Snake.Engines.Interfaces
 {
     public interface IDirectionEngine
@@ -6,5 +8,6 @@ namespace Snake.Engines.Interfaces
         void TurnRight();
         void TurnDown();
         void TurnUp();
+        Direction GetDirection();
     }
 }
