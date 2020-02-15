@@ -26,13 +26,17 @@ namespace Snake
             _gridManager = gridManager;
             _scoreManager = scoreManager;
             _logging = logging;
+            //TODO: Configuration
+            logging.SetDebugEnabled(true);
         }
 
         public void RunOnce(ConsoleKey consoleKey)
         {
             if(consoleKey!= ConsoleKey.NoName)
             {
-                _logging.Log($"Ran {count} next frame {_frameTime.TotalMilliseconds}, key: {consoleKey.ToString()}");
+                _snakeManager.RunOnce(consoleKey);
+                
+                _logging.Log($"[{this.GetType().Name}]Ran {count} next frame {_frameTime.TotalMilliseconds}, key: {consoleKey.ToString()}");
             }
 
             var dtNow = DateTime.Now;

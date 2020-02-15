@@ -2,6 +2,7 @@ namespace Snake.Utilities.Interfaces
 {
     public interface ILogging
     {
-         void Log(string logString);
+        void SetDebugEnabled(bool enabled);
+        void Log(string logString);
     }
 }
