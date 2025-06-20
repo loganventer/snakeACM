@@ -20,7 +20,7 @@ namespace Snake.Managers
         }
         public void RunOnce(ConsoleKey consoleKey)
         {
-            if (consoleKey != ConsoleKey.NoName)
+            if (consoleKey is ConsoleKey.DownArrow or ConsoleKey.UpArrow or ConsoleKey.LeftArrow or ConsoleKey.RightArrow)
             {
                 _logging.Log($"Turning {consoleKey}");
                 switch (consoleKey)

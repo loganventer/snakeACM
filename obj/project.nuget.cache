@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "SnPCi5uqPrg=",
+  "success": true,
+  "projectFilePath": "/home/logan/Documents/dev/snakeACM/Snake.csproj",
+  "expectedPackageFiles": [
+    "/home/logan/.nuget/packages/autofac/5.1.1/autofac.5.1.1.nupkg.sha512",
+    "/home/logan/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/logan/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.15/microsoft.netcore.app.host.linux-x64.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+/home/logan/Documents/dev/snakeACM/bin/Debug/netcoreapp3.1/Snake
+/home/logan/Documents/dev/snakeACM/bin/Debug/netcoreapp3.1/Snake.deps.json
+/home/logan/Documents/dev/snakeACM/bin/Debug/netcoreapp3.1/Snake.runtimeconfig.json
+/home/logan/Documents/dev/snakeACM/bin/Debug/netcoreapp3.1/Snake.runtimeconfig.dev.json
+/home/logan/Documents/dev/snakeACM/bin/Debug/netcoreapp3.1/Snake.dll
+/home/logan/Documents/dev/snakeACM/bin/Debug/netcoreapp3.1/Snake.pdb
+/home/logan/Documents/dev/snakeACM/bin/Debug/netcoreapp3.1/Autofac.dll
+/home/logan/Documents/dev/snakeACM/obj/Debug/netcoreapp3.1/Snake.csproj.AssemblyReference.cache
+/home/logan/Documents/dev/snakeACM/obj/Debug/netcoreapp3.1/Snake.GeneratedMSBuildEditorConfig.editorconfig
+/home/logan/Documents/dev/snakeACM/obj/Debug/netcoreapp3.1/Snake.AssemblyInfoInputs.cache
+/home/logan/Documents/dev/snakeACM/obj/Debug/netcoreapp3.1/Snake.AssemblyInfo.cs
+/home/logan/Documents/dev/snakeACM/obj/Debug/netcoreapp3.1/Snake.csproj.CoreCompileInputs.cache
+/home/logan/Documents/dev/snakeACM/obj/Debug/netcoreapp3.1/Snake.sourcelink.json
+/home/logan/Documents/dev/snakeACM/obj/Debug/netcoreapp3.1/Snake.csproj.Up2Date
+/home/logan/Documents/dev/snakeACM/obj/Debug/netcoreapp3.1/Snake.dll
+/home/logan/Documents/dev/snakeACM/obj/Debug/netcoreapp3.1/Snake.pdb
+/home/logan/Documents/dev/snakeACM/obj/Debug/netcoreapp3.1/Snake.genruntimeconfig.cache
