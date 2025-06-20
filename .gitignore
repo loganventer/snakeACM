@@ -1,0 +1,117 @@
+# This file is a combination of the VisualStudio and DotnetCore templates from https://github.com/github/gitignore
+
+### DotnetCore ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+!**/.gitkeep
+
+# Project files
+*.csproj.user
+*.dbmdl
+*.jfm
+*.pfx
+*.suo
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+log/
+
+# Visual Studio 2015 cache/options directory
+.vs/
+
+# Visual Studio 2017 cache/options directory
+.vs/
+
+# Visual Studio 2019 cache/options directory
+.vs/
+
+# Visual Studio 2022 cache/options directory
+.vs/
+
+# Visual Studio Code cache/options directory
+.vscode/
+
+# Rider cache/options directory
+.idea/
+
+# Dotnet Core Build results
+bin/
+obj/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+[Uu]nicode [Dd]ebug/
+[Uu]nicode [Rr]elease/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+
+# Windows thumbnails
+Thumbs.db
+ehthumbs.db
+
+# Dotnet publish for MacOS and Linux
+wwwroot/dist
+
+# Temp files
+*.tmp
+*.temp
+*~
+
+# FAKE - F# Make
+.fake/
+
+# Paket dependency manager
+.paket/paket.exe
+paket-files/
+
+# JetBrains Rider
+*.sln.iml
+
+# Code Analysis
+*.sarif
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Covers JetBrains Rider's resharper config file
+*.DotSettings.user
+
+# ReSharper is a brand name for a product by JetBrains.
+# This entry is for the ReSharper plugin JetBrains provides for Visual Studio.
+_ReSharper*/
+
+# MyGeneration tool
+*.mgn
+
+# OCELOT - API Gateway
+ocelot.json
